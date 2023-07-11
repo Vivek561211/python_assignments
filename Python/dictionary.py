@@ -1,0 +1,19 @@
+car = {"Brand":"Toyota",
+       "Name":"Innova",
+       "Model":"Crysta",
+       "Year":"2010"}
+print(car)
+x=car.keys()
+print(x)
+y=car.values()
+print(y)
+z=car.get("Brand")
+print(z)
+#a=car.pop("model")
+#print(a)
+b=car.popitem()
+print(b)
+c=car.copy()
+print(c)
+d=car.clear()
+print(d)
